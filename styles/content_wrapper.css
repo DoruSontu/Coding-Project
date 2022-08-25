@@ -1,0 +1,92 @@
+.content_wrapper{
+    background-color: #373B43 ;
+    height: 460px;
+    margin: 0px -10px 0px -10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: inset -500px -81px 300px 32px rgba(0,0,0,0.79);
+    font-family: 'Lato', sans-serif;
+}
+
+.info_wrapper{
+color: white;
+min-width: 550px;
+padding-left: 40px;
+font-size: 2em;
+height: 450px;
+width: 640px;
+font-family: 'Lato', sans-serif;
+}
+
+
+.info_wrapper > p > i{
+    color:yellow;
+    transform: rotate(320deg);
+}
+
+.image_wrapper{
+
+text-align: right;
+min-width: 450px;
+padding-top: 30px;
+height: 450px;
+width: 40%;
+}
+
+.image_wrapper > .image >img{
+box-shadow: -8px 1px 59px -12px rgba(0,0,0,1);
+height: 400px;
+width: 520px;
+}
+
+.image_wrapper > .text_wrapper{
+    font-size: 1.3em;
+}
+
+
+.info_buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+
+.text_wrapper{
+    color: white;
+padding-right: 300px;
+min-width: 200px;
+font-family: 'Lato', sans-serif;
+}
+
+.info_buttons > .sign_up_btn >#sign_up{
+    background-color: lightgreen;
+    color: black;
+    text-align: center;
+    width: 250px;
+    margin-bottom: 10px;
+    padding: 15px 5px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+.info_buttons > .learn_more_btn > #learn_mor{
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 13px 5px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-family: 'Lato', sans-serif;
+}
+
+.info_buttons > .learn_more_btn > #learn_mor:active{
+    box-shadow: -8px 1px 59px -12px rgba(0,0,0,2);
+}
+
+.info_buttons > .sign_up_btn >#sign_up:active{
+    box-shadow: -8px 1px 59px -12px rgba(0,0,0,2);
+}
